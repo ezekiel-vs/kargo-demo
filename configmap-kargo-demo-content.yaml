@@ -1,0 +1,14 @@
+apiVersion: v1
+data:
+  index.html: |-
+    <!DOCTYPE html>
+    <html>
+    <head><title>Default Tenant</title></head>
+    <body style="font-family:system-ui;background:#63788A;color:#fff;padding:3rem">
+    <h1>Default Tenant</h1>
+    <p>stage: <code>prod-default</code> &middot; tenant: <code>default</code></p>
+    </body>
+    </html>
+kind: ConfigMap
+metadata:
+  name: kargo-demo-content
