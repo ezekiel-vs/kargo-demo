@@ -1,0 +1,14 @@
+apiVersion: v1
+data:
+  index.html: |-
+    <!DOCTYPE html>
+    <html>
+    <head><title>Acme Motors</title></head>
+    <body style="font-family:system-ui;background:#C96A14;color:#fff;padding:3rem">
+    <h1>Acme Motors</h1>
+    <p>stage: <code>prod-acme</code> &middot; tenant: <code>acme</code></p>
+    </body>
+    </html>
+kind: ConfigMap
+metadata:
+  name: kargo-demo-content
