@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kargo-demo-content
+data:
+  index.html: |-
+    <!DOCTYPE html>
+    <html>
+    <head><title>Staging</title></head>
+    <body style="font-family:system-ui;background:#0F1D28;color:#fff;padding:3rem">
+    <h1>Staging</h1>
+    <p>stage: <code>staging</code> &middot; tenant: <code>shared</code></p>
+    </body>
+    </html>

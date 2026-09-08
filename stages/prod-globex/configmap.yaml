@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kargo-demo-content
+data:
+  index.html: |-
+    <!DOCTYPE html>
+    <html>
+    <head><title>Globex Auto</title></head>
+    <body style="font-family:system-ui;background:#2C6E52;color:#fff;padding:3rem">
+    <h1>Globex Auto</h1>
+    <p>stage: <code>prod-globex</code> &middot; tenant: <code>globex</code></p>
+    </body>
+    </html>
